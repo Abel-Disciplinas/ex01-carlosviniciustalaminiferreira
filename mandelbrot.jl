@@ -1,6 +1,3 @@
-# add Images
-# add ImageMagick
-
 using Images
 
 # z^2 = x^2 + 2xyi - y^2 = (x^2 - y^2) + (2xy) i
