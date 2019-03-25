@@ -5,11 +5,11 @@ function iteracao_mandelbrot(cx, cy; max_iter = 40)
   iter = 0
   x = 0
   y = 0
-  while iter <= max_iter
-    rex = x²-y²
-    img = 2*x*y
+  while iter < max_iter
+    rez = x^2-y^2
+    imz = 2*x*y
     x = rez
-    y = img
+    y = imz
     iter += 1
   end
 
